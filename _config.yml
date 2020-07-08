@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Your Sidebar Name"
-  avatar           : "profile.png"
+  avatar           : "images/profile.png"
   bio              : "Incoming PhD student @ Caltech CMS"
   location         : "Location"
   employer         :
