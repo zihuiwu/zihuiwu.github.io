@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Zihui Wu"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Zihui Wu"
 description              : &description "personal description"
 url                      : https://raywu0930.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/RayWu0930"
+  github           : "RayWu0930"
   google_plus      :
   keybase          :
   instagram        :
