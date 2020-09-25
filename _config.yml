@@ -86,7 +86,7 @@ author:
   location         : "Pasadena, CA"
   employer         :
   pubmed           :
-  googlescholar    : "https://scholar.google.com/citations?user=SU7yjxAAAAAJ&hl=en"
+  googlescholar    : &googlescholar "https://scholar.google.com/citations?user=SU7yjxAAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
