@@ -5,8 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-<style>
+{% include base_path %}
 
+<style>
 div.title,div.ftheader,span.venue,span.highlight{font-weight:600}
 h4,div.title,{font-size:100%}
 img.img_responsive{width:100%;height:auto;display:block}
@@ -21,8 +22,8 @@ div.authors a:visited{color:#777777}
 div.content a:hover,
 div.content a:hover div.text,
 div.ftsubheader a:hover{text-decoration:underline}
-#span.jw{color:#000000;font-weight:600;text-decoration:underline}
-span.jw{color:#000000;font-weight:600}
+#span.me{color:#000000;font-weight:600;text-decoration:underline}
+span.me{color:#000000;font-weight:600}
 span.author{white-space:nowrap}
 div.header,div.container,div.content,div.img,div.text{display:inline-block;zoom:1;display*:inline;text-align:left;margin-left:auto;margin-right:auto;vertical-align:middle;max-width:960px}
 div.header,div.container{min-width:330px}
@@ -68,72 +69,61 @@ div.recruit{display:none}
 }
 </style>
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
 <h2 id="{{ year | slugify }}" class="archive__subtitle">2020</h2>
   <div class="publication">
     <div class="img"><img class="img_responsive" src="/images/Sun-etal20.png"></div>
     <div class="text">
-      <div class="title"><a name="shape2prog_iclr" href="papers/shape2prog_iclr.pdf">Scalable Plug-and-Play ADMM with Convergence Guarantees</a></div>
+      <div class="title"><a name="Sun-etal20" href="/files/Sun-etal20.pdf">Scalable Plug-and-Play ADMM with Convergence Guarantees</a></div>
       <div class="authors">
-        <span class="author"><a href="http://people.csail.mit.edu/yonglong/">Yu Sun</a></span>,
-        <span class="author jw">Zihui Wu</span>,
-        <span class="author"><a href="http://people.csail.mit.edu/xingyuan/">Brendt Wohlberg</a></span>,
-        <span class="author"><a href="http://web.mit.edu/ellisk/www/">U. S. Kamilov</a></span>,
+        <span class="author"><a href="https://scholar.google.com/citations?user=5c52t54AAAAJ&hl=en">Yu Sun</a></span>,
+        <span class="author me">Zihui Wu</span>,
+        <span class="author"><a href="http://brendt.wohlberg.net/">Brendt Wohlberg</a></span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
       </div>
       <div>
-        <span class="venue"><a href="https://openreview.net/forum?id=rylNH20qFQ">arXiv preprint</a></span> /
-        <span class="tag"><a href="papers/shape2prog_iclr.pdf">Paper</a></span>
+        <span class="venue"><a href="https://arxiv.org/pdf/2006.03224.pdf">arXiv preprint</a></span> /
+        <span class="tag"><a href="/files/Sun-etal20.pdf">Paper</a></span>
       </div>
     </div>
   </div>
-<p>Y. Sun, **Z. Wu**, B. Wohlberg, and U. S. Kamilov, “Scalable Plug-and-Play ADMM with Convergence Guarantees,” arXiv:2006.03224, 2020.</p>
 
 <div class="publication">
-  <div class="img"><img class="img_responsive" src="images/spotlight_shape2prog.jpg"></div>
+  <div class="img"><img class="img_responsive" src="/images/Wu-etal20.png"></div>
   <div class="text">
-    <div class="title"><a name="shape2prog_iclr" href="papers/shape2prog_iclr.pdf">SIMBA: Scalable Inversion in Optical Tomography using Deep Denoising Priors</a></div>
+    <div class="title"><a name="Wu-etal20" href="/files/Wu-etal20.pdf" color:="red">SIMBA: Scalable Inversion in Optical Tomography using Deep Denoising Priors</a></div>
     <div class="authors">
-      <span class="author jw">Zihui Wu</span>,
-      <span class="author"><a href="http://people.csail.mit.edu/yonglong/">Yu Sun</a></span>,
-      <span class="author"><a href="http://people.csail.mit.edu/xingyuan/">Alex Matlock</a></span>,
-      <span class="author"><a href="http://people.csail.mit.edu/xingyuan/">Jiaming Liu</a></span>,
-      <span class="author"><a href="http://people.csail.mit.edu/xingyuan/">Lei Tian</a></span>,
-      <span class="author"><a href="http://web.mit.edu/ellisk/www/">U. S. Kamilov</a></span>,
+      <span class="author me">Zihui Wu</span>,
+      <span class="author"><a href="https://scholar.google.com/citations?user=5c52t54AAAAJ&hl=en">Yu Sun</a></span>,
+      <span class="author"><a href="https://scholar.google.com/citations?user=sADga6IAAAAJ&hl=en">Alex Matlock</a></span>,
+      <span class="author"><a href="https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en">Jiaming Liu</a></span>,
+      <span class="author"><a href="http://sites.bu.edu/tianlab/people/lei-tian/">Lei Tian</a></span>,
+      <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
     </div>
     <div>
-      <span class="venue"><a href="https://openreview.net/forum?id=rylNH20qFQ">IEEE JSTSP 2020</a></span> /
-      <span class="tag"><a href="papers/shape2prog_iclr.pdf">Paper</a></span>
+      <span class="venue"><a href="https://signalprocessingsociety.org/publications-resources/ieee-journal-selected-topics-signal-processing">IEEE JSTSP</a></span> /
+      <span class="tag"><a href="/files/Wu-etal20.pdf">Paper</a></span>
     </div>
   </div>
 </div>
-<p>**Z. Wu**, Y. Sun, A. Matlock, J. Liu, L. Tian, and U. S. Kamilov, “SIMBA: Scalable Inversion in Optical Tomography using Deep Denoising Priors,” _IEEE Journal of Selected Topics in Signal Processing (JSTSP)_, vol. 14, no. 6, pp. 1163-1175, Oct. 2020, doi: 10.1109/JSTSP.2020.2999820.</p>
 
 <h2 id="{{ year | slugify }}" class="archive__subtitle">2019</h2>
 
 <div class="publication">
-  <div class="img"><img class="img_responsive" src="images/spotlight_shape2prog.jpg"></div>
+  <div class="img"><img class="img_responsive" src="/images/Wu-etal19.png"></div>
   <div class="text">
-    <div class="title"><a name="shape2prog_iclr" href="papers/shape2prog_iclr.pdf">Online Regularization by Denoising with Applications to Phase Retrieval</a></div>
+    <div class="title"><a name="etal19" href="/files/Wu-etal19.pdf">Online Regularization by Denoising with Applications to Phase Retrieval</a></div>
     <div class="authors">
-      <span class="author jw">Zihui Wu</span>,
-      <span class="author"><a href="http://people.csail.mit.edu/yonglong/">Yu Sun</a></span>,
-      <span class="author"><a href="http://people.csail.mit.edu/xingyuan/">Jiaming Liu</a></span>,
-      <span class="author"><a href="http://web.mit.edu/ellisk/www/">U. S. Kamilov</a></span>,
+      <span class="author me">Zihui Wu</span>,
+      <span class="author"><a href="https://scholar.google.com/citations?user=5c52t54AAAAJ&hl=en">Yu Sun</a></span>,
+      <span class="author"><a href="https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en">Jiaming Liu</a></span>,
+      <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
     </div>
     <div>
-      <span class="venue"><a href="https://openreview.net/forum?id=rylNH20qFQ">ICCVW 2019</a></span> /
-      <span class="tag"><a href="papers/shape2prog_iclr.pdf">Paper</a></span>
-      <span class="highlight">Oral Presentation</span>
+      <span class="venue"><a href="https://sites.google.com/view/iccv-lci2019/home">ICCVW 2019</a></span> /
+      <span class="tag"><a href="/files/Wu-etal19.pdf">Paper</a></span>
+      <div>
+        <span class="highlight">Oral Presentation</span>
+      </div>
     </div>
   </div>
 </div>
-<p>**Z. Wu**, Y. Sun, J. Liu, and U. S. Kamilov, “Online Regularization by Denoising with Applications to Phase Retrieval,” _Proceedings of the IEEE International Conference on Computer Vision Workshop (ICCVW)_, 2019. [**Oral presentation**]</p>
