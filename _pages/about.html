@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "About me"
+excerpt: ""
 author_profile: true
 redirect_from:
   - /about/
@@ -12,9 +12,10 @@ I am a first-year Ph.D. student in the department of Computing and Mathematical 
 
 Prior to coming to Caltech, I was an undergraduate student at Washington University in St. Louis. I was a member of the Computational Imaging Group and fortunate to work with Professor Ulugbek S. Kamilov and Yu Sun, who helped me a lot with my research.
 
+<br>
 <h1> News </h1>
 
-I am going to start my PhD at Caltech and so I create this webpage to record my research history!
+
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
@@ -24,5 +25,6 @@ I am going to start my PhD at Caltech and so I create this webpage to record my 
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
+  I am going to start my PhD at Caltech and so I create this webpage to record my research history!
   {% include archive-single.html %}
 {% endfor %}
