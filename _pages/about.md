@@ -13,5 +13,5 @@ I am honored to be a Ph.D. student in the department of Computing and Mathematic
 Prior to coming to Caltech, I was an undergraduate student at Washington University in St. Louis. I worked in the Computational Imaging Group and was fortunately advised by Professor Ulugbek S. Kamilov and Yu Sun, who helped me a lot with my research.
 
 ## News
-September 2020
-{: I am going to start my PhD at Caltech and start this webpage to record my research history .notice}
+###September 2020
+I am going to start my PhD at Caltech and start this webpage to record my research history {: .notice}
