@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Zihui Wu"
 title_separator          : "-"
-name                     : &name "Zihui Wu 吴子晖"
+name                     : &name "Zihui Wu"
 description              : &description "personal description"
 url                      : https://raywu0930.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
