@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           :
   googlescholar    : &googlescholar "https://scholar.google.com/citations?user=SU7yjxAAAAAJ&hl=en"
-  email            : "zwu2[at]caltech[dot]edu"
+  email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
